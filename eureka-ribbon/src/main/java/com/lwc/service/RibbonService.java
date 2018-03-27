@@ -12,4 +12,8 @@ public interface RibbonService {
 
     String ribbonService(String name);
 
+    /**
+     * Hystrix 熔断 返回错误信息
+     */
+    String hystrixError(String name);
 }
