@@ -1,5 +1,6 @@
 package com.lwc.service;
 
+import com.lwc.config.FeignClientServiceHystric;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date created in 2018-03-27 10:43
  * @modified by
  */
-@FeignClient("eureka-client")
+@FeignClient(value = "eureka-client", fallback = FeignClientServiceHystric.class)
 public interface FeignClientService {
 
     @GetMapping("/eureka/client")
