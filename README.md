@@ -1,7 +1,9 @@
-# SpringCloudDemo
+# Spring Cloud Demo Project
 
-环境: jdk8
-
+### 博客园
+```
+http://www.cnblogs.com/EddieBlog/
+```
 ### 第一节： 服务的注册与发现（Eureka）
 ```
 标签: 1-0, 1-1
@@ -14,7 +16,7 @@
 ```
 标签: 3-1
 ```
-### 第四节: 服务消费者（Hystrix）
+### 第四节: 断路器（Hystrix）
 ```
-标签: 4-1
+标签: 4-1, 4-2
 ```
