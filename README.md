@@ -20,3 +20,11 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 4-1, 4-2
 ```
+### 第五节: 路由网关 (zuul)
+```
+标签: 5-1
+```
+### 第六节: 分布式配置中心(Spring Cloud Config)
+```
+标签: 6-1, 6-2
+```
