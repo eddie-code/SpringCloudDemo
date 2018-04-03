@@ -1,5 +1,18 @@
+server:
+  port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: false
+    fetch-registry: false
 spring:
-  application:
-      name: eureka-config-server
-  profiles:
-    active: ${@profileActiv@:dev}
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/eddie-code/SpringCloudDemo
+          search-paths: pigeonhole
+          username:
+          passphrase:
+      label: master
