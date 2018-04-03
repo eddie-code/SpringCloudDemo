@@ -12,7 +12,7 @@ spring:
       server:
         git:
           uri: https://github.com/eddie-code/SpringCloudDemo
-          search-paths: pigeonhole
+          search-paths: config-repo
           username:
           passphrase:
       label: master
