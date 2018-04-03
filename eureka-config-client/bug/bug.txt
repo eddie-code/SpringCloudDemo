@@ -1,0 +1,3 @@
+一. 启动时候出现: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.appController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'eddie' in value "${eddie}"
+答: (1) SpringBoot版本 控制跟我一种
+    (2) eureka-config-server 和 在Git上的文件名称是否一样 比如: eureka-config-client-dev.properties
