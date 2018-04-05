@@ -1,0 +1,5 @@
+spring:
+  application:
+      name: eureka-config-server-cluster
+  profiles:
+    active: ${@profileActiv@:dev}
