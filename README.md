@@ -28,3 +28,7 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 6-1, 6-2
 ```
+### 第七节: 高可用分布式配置中心(Spring Cloud Config)
+```
+标签: 7-1
+```
