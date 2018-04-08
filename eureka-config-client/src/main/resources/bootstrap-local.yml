@@ -12,3 +12,11 @@ spring:
       discovery:
         serviceId: eureka-config-server
         enabled: true
+  rabbitmq:
+    username: eddie
+    password: 123456
+    host: 192.168.56.101
+    port: 5672
+management:
+  security:
+    enabled: false

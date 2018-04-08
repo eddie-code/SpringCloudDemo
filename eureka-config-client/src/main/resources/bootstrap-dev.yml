@@ -1,14 +1,22 @@
 server:
-  port: 8881
+  port: 8882
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: false
-    fetch-registry: false
+      defaultZone: http://localhost:8889/eureka/
 spring:
   cloud:
     config:
-      profile: dev
       label: master
-      uri: http://localhost:8888/
+      profile: local
+      discovery:
+        serviceId: eureka-config-server
+        enabled: true
+  rabbitmq:
+    username: eddie
+    password: 123456
+    host: 192.168.56.101
+    port: 5672
+management:
+  security:
+    enabled: false
