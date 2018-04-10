@@ -32,3 +32,14 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 7-1
 ```
+### 第八节: 消息总线(Spring Cloud Bus)
+```
+标签: 8-1
+```
+### 服务链路追踪(Spring Cloud Sleuth)
+```
+标签: 9-1
+```
+
+
+如果感觉好的同学, 在右上点击 Star 支持一下!
