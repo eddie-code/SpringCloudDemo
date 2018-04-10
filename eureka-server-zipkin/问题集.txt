@@ -1,0 +1,10 @@
+抽样：
+
+日志采集的越多，追踪越全面，但是消耗也越大；反之日志追踪不够多也就失去了意义。到底追踪多少日志才是平衡点？Spring Cloud Sleuth把这个问题交给了使用者，通过配置spring.sleuth.sampler.percentage=0.1这个参数来决定了日志记录发送给采集器的概率，0-1交给使用者自己配置。开发阶段和运行初期，一般配置成1全量收集日志，到了上线后可以慢慢降低这一概率。
+
+开发者还可以直接在代码中创建AlwaysSampler实例来指定100%输出日志，效果跟spring.sleuth.sampler.percentage=1是一样的。
+
+@Bean
+    public AlwaysSampler defaultSampler() {
+        return new AlwaysSampler();
+    }
