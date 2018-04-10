@@ -1,6 +1,6 @@
 # Spring Cloud Demo Project
 
-### 博客园
+### 博客园 (教程)
 ```
 http://www.cnblogs.com/EddieBlog/
 ```
@@ -36,10 +36,13 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 8-1
 ```
-### 服务链路追踪(Spring Cloud Sleuth)
+### 第九节: 服务链路追踪(Spring Cloud Sleuth)
 ```
 标签: 9-1
 ```
-
+### 第十篇: 高可用的服务注册中心
+```
+标签: 10-1
+```
 
 如果感觉好的同学, 在右上点击 Star 支持一下!
