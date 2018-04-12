@@ -44,5 +44,9 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 10-1
 ```
+### 第十一篇: 断路器监控(Hystrix Dashboard)
+```
+标签: 11-1
+```
 
 如果感觉好的同学, 在右上点击 Star 支持一下!
