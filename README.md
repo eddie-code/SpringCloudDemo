@@ -48,5 +48,9 @@ http://www.cnblogs.com/EddieBlog/
 ```
 标签: 11-1
 ```
+### 第十二篇: 断路器聚合监控(Hystrix Turbine)
+```
+标签: 12-1
+```
 
 如果感觉好的同学, 在右上点击 Star 支持一下!
