@@ -18,7 +18,7 @@ eureka:
 env:
   dev
 girl:
-  name: jenny.chow
+  name: jenny
   age: 22
 management:
   security:
