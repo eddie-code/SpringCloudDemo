@@ -19,3 +19,6 @@ env: dev
 #management:
 #  security:
 #    enabled: false
+girl:
+  name: jenny
+  age: 18
