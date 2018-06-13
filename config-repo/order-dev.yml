@@ -20,5 +20,5 @@ env: dev
 #  security:
 #    enabled: false
 girl:
-  name: jenny
-  age: 18
+  name: jenny.chow
+  age: 8
