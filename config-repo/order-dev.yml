@@ -20,3 +20,6 @@ env:
 girl:
   name: jenny.chow
   age: 100
+management:
+  security:
+    enabled: false
