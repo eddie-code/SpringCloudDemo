@@ -16,6 +16,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 env: dev
-management:
-  security:
-    enabled: false
+#management:
+#  security:
+#    enabled: false
