@@ -15,10 +15,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-env: dev
+env: dev1
 #management:
 #  security:
 #    enabled: false
 girl:
   name: jenny.chow
-  age: 8
+  age: 18
