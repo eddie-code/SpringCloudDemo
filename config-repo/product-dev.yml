@@ -4,5 +4,10 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 192.168.56.101
+    password: guest
+    port: 5672
+    username: guest
   jpa:
     show-sql: true
