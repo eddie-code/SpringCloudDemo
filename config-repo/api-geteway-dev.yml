@@ -8,6 +8,11 @@ zuul:
       serviceId: product
       # 不过滤cookie
       sensitiveHeaders:
+    aaaaaa1:
+      path: /myUser/**
+      serviceId: user
+      # 不过滤cookie
+      sensitiveHeaders:
   #简洁写法
   #   product: /myProduct/**
   #排除某些路由
