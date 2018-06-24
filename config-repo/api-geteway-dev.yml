@@ -3,7 +3,7 @@ zuul:
   sensitive-headers: 
   routes:
     # /myProduct/product/list -> /product/product/list
-    myProduct:
+    aaaaaaa:
       path: /myProduct/**
       serviceId: product
       # 不过滤cookie
