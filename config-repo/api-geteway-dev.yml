@@ -1,18 +1,13 @@
 zuul:
   #全部服务忽略敏感头（全部服务都可以传递cookies）
-  sensitive-headers: 
+  sensitive-headers: Cookie,Set-Cookie
   routes:
     # /myProduct/product/list -> /product/product/list
     aaaaaaa:
       path: /myProduct/**
       serviceId: PRODUCT
       # 不过滤cookie
-      sensitiveHeaders:
-    bbbbbbb:
-      path: /myUser/**
-      serviceId: USER
-      # 不过滤cookie
-      sensitiveHeaders:
+      sensitiveHeaders: 
   #简洁写法
   #   product: /myProduct/**
   #排除某些路由
