@@ -5,7 +5,7 @@ zuul:
     # /myProduct/product/list -> /product/product/list
     aaaaaaa:
       path: /myProduct/**
-      serviceId: user
+      serviceId: PRODUCT
       # 不过滤cookie
       sensitiveHeaders:
   #简洁写法
