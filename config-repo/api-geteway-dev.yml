@@ -8,7 +8,6 @@ zuul:
       serviceId: PRODUCT
       # 不过滤cookie
       sensitiveHeaders:
-	# /myProduct/product/list -> /product/product/list
     bbbbbbb:
       path: /myUser/**
       serviceId: USER
